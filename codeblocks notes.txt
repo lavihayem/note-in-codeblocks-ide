@@ -1,0 +1,75 @@
+if u want to import the project you use cbp
+************************************************************
+If the calculation is small mistake in decimal check int and float in prototype and also definition function.
+************************************************************
+if you check the program and the output is wrong check the 'cout' what u printing
+************************************************************ 
+when you looking for a number when you find a number,then the program continue and look furder and you do not want that use 'break;'
+***************************************************************************************
+if you get message 'exit1' in console check the '#include<>'
+***************************************************************************************
+if you do copy paste look twice
+************************************************************************************
+if something is wrong right away delete or make note to delete
+***************************************************************************************
+nan letter and number mix up
+***********************************************************************************
+if you open infile in main and in function could make the program does not give output : you need to do;
+if you open in main send infile to function,for the next function that you need
+when you have two file
+when you want to return something you could return char 'A' but if you have this exprasion
+finalGrade=='A'; this does not work because you comparing
+******************************************************************************************
+wrong  while(!infile.eof())     you need to put <eof> int the end of infile???
+********************************************************************************
+C:\Users\rafi\Desktop\Hw4langsam\main.cpp|18|error: expected unqualified-id before 'int'|
+missing the name of function
+********************************************************************************************
+copy1  c = cin.get();//get character put in c//abc
+        cout.put(c);//the character in c print//abc
+*********************************************************************************************
+int c reserve 4 bytes = 4* 8 bit which is 2^32 since start from 0 is 2^31 =2147483648 which is 2 billion
+*****************************************************************************************************************
+Angela overloag program crash is illeagl
+*************************************************************************************************
+imagine in ur head and trial error
+C:\Users\rafi\Desktop\Assignment5Langsam\main.cpp|64|error: could not convert '(std::string*)(& lNamew)' from 'std::string* {aka std::basic_string<char>*}' to 'std::string {aka std::basic_string<char>}'|
+means that the two types being used are not compatible ; one is an element and the second one is an array.
+lNamew is an array , we want to pass an element; meaning lNamew[j]
+*******************************************
+if in loop no j=0 crash
+************************************************************************
+if you have getline(infile,address) you must have in the infile space betwwen the data consistant meanig firstname 'onespace or tab' lastname 'space or tab' then address.
+*************************************************************************************************************
+when u use getline comparason you make sure the space for between them is consistant
+********************************************************
+getline(cin,sting)
+infile.clear()??
+
+
+
+part 3 switch 1 t0 10
+
+10:44 AM 8/14/2017
+*****************************************************************
+ infile.close();// this alone for sure worke
+                   //close the file
+
+     infile.clear();// alone does not work
+remember always u need to open
+********************************************************************************************************
+activate mic alt or ctrl +F4
+*************************************************************************************************
+cout.width(5);//means reserve 5 space
+        cout << right ;//this  that you reserved start from right goes to left
+        cout.width(5);
+        cout << right ;
+        cout.width(5);
+        cout<<left;//what you reserved start from left
+note if what u reserved is the same amount of character does not make different if is right or left.
+you do not need #include<iomanip>
+*****************************************************************************************************************
+change comment color in codeblocks:settibg /editor /syntex highlight/
+************************************************************************************************
+  reference parameter if you have-> & alter. no &-> is not alter 
+*************************************************************************************
